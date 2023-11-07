@@ -84,13 +84,13 @@ term.setCursorPos(4,16)
 print("reboot")
 term.setBackgroundColor(colors.gray)
 term.setCursorPos(4,14)
-print("craftos")
+print("shell")
 
 while true do
 local event,button,x,y = os.pullEvent("mouse_click")
 if x >= 4 and x <= 10 and y == 16 then
 os.reboot()
-elseif x >= 4 and x <= 11 and y == 14 then
+elseif x >= 4 and x <= 9 and y == 14 then
 term.setBackgroundColor(colors.black)
 term.setTextColor(colors.white)
 term.clear()
