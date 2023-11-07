@@ -8,4 +8,5 @@ The brand new BeeOS! with features like:
 -shell
 -customisable wallpaper
 
-/!\ currently, there is no installer. so you can't use is yet /!\
+unlike BeeOS 23.05, you do not need a floppy disk
+to install run: 'wget run https://raw.githubusercontent.com/bennybest7/BeeOS-23.10/main/installer.lua' in CraftOS
